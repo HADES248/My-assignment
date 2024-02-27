@@ -1,4 +1,5 @@
 body {
+  height: 100%;
   object-fit: contain;
   padding: 0;
   margin: 0;
