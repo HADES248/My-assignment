@@ -1,13 +1,95 @@
 body {
+  object-fit: contain;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: aliceblue;
+}
+.navbar {
+  top: 0;
+  z-index: 10;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.about {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.images {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.main-community {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-community {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  color: black;
+}
+
+.everything {
+  top: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.main-buy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-buy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  align-items: center;
+  color: black;
 }
